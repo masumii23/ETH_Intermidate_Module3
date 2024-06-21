@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Token is ERC20 {
     address private _owner;
 
-    constructor() ERC20("Masumi", "MI") {
+    constructor() ERC20("Masumi", "MT") {
         _owner = msg.sender;
     }
 
