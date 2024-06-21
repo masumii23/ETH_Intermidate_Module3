@@ -4,7 +4,7 @@ The solidity program "Create and Mint Token" will demonstrate the use of ERC20 C
 
 ## Description
 
-This smart contract, written in Solidity, defines an ERC20 token named "Chakshit" with the symbol "CT". The contract uses OpenZeppelin's ERC20 implementation to leverage standardized functionalities and inherits from the ERC20 base contract.
+This smart contract, written in Solidity, defines an ERC20 token named "Masumi" with the symbol "MT". The contract uses OpenZeppelin's ERC20 implementation to leverage standardized functionalities and inherits from the ERC20 base contract.
 
 Upon deployment, the contract assigns the deployer as the owner. This owner designation is critical because the contract includes an onlyOwner modifier, restricting certain actions to only the owner. Specifically, the mint function, which allows the creation of new tokens, can only be called by the owner. This ensures controlled token minting, preventing arbitrary token creation by other users.
 
